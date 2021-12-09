@@ -1,7 +1,6 @@
 import com.google.gson.annotations.SerializedName;
+
 public class Node {
-
-
     @SerializedName("Id")
     private int ID;
     @SerializedName("Yes")
@@ -10,7 +9,6 @@ public class Node {
     private int noID;
     @SerializedName("Description")
     private String description;
-
     private Node yesNode;
     private Node noNode;
 
@@ -35,7 +33,6 @@ public class Node {
     public void setYesNode(Node yes) {this.yesNode = yes;}
     public Node getNoNode() {return noNode;}
     public void setNoNode(Node no) {this.noNode = no;}
-
 
     @Override
     public String toString() {
