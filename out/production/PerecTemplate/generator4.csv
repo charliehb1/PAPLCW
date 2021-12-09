@@ -1,0 +1,48 @@
+0,1,45,-,it needs electricity
+1,2,47,You want to do a computer related task,-
+2,3,13,-,does the area have power
+3,4,46,-,is the voltage of the power good and safe?
+4,5,12,-,could any interruptions affect the creditibility of your work?
+5,6,7,-,do you have any means of getting your work back?
+6,45,21,-,would the device be affected if you carry on?
+7,8,12,,is there a backup file for your work?
+8,9,20,saving and doing work also,can you finish the task on time?
+9,1,47,Good Job,Task complete
+10,9,11,you're still pressed o the project,is the power back on?
+11,1,47,The project cannot be completed at this time,Discard the project and try again next time
+12,20,8,Backup Created,Is this work also being saved locally?
+13,14,16,-,is the area too hot or cold to work in?
+14,15,21,-,is it already too late at night ?
+15,44,45,-,can a lamp be used to complete the task?
+16,18,17,-,does it bother you during your work?
+17,45,21,-,can you just tolerate for the time being and wait for power?
+18,19,45,-,do you have a mechanical or battery powered fan?
+19,47,45,you have a better condition now,complete your task
+20,45,9,the device is being used on battery,Did the device power down mid way due to unforeseen circumstances?
+21,22,44,-,do you have a backup generator
+22,23,34,-,is it in perfect working condition?
+23,25,24,-,it uses fuel or diesel?
+24,32,34,This is for electric generators,does it work fine?
+25,26,28,both is fine select one,fuel or diesel
+26,27,28,-,is there a reasonable amount in the generator?
+27,32,32,-,check the oil (good or bad)?
+28,29,36,-,are there any extra fuel gallons lying around?
+29,30,30,found a funnel,proceeed to pour into the generator
+30,31,31,accident happens,did it spill over?
+31,32,32,clean it up and continue,cleaned up?
+32,33,33,-,turn on generator
+33,9,45,seems you have got electricity now,are you able to complete the task successfully now?
+34,35,43,-,would turning it on in that condition cause any harm?
+35,10,10,-,wait for the power to be back
+36,37,35,-,can you go to the station to get more?
+37,39,38,-,is it already too late(station closed)?
+38,29,29,get an empty gallon or buy fuel,already bought fuel?
+39,40,40,-,you will have to wait till power is back
+40,42,41,still concerned,is power back on?
+41,0,0,-,Discard task
+42,47,47,-,complete the task
+43,33,33,-,proceed with the task
+44,20,6,lamp is being used to see during the task,is the battery in the device enough till the task is done?
+45,10,10,-,leave the task for now and wait for power to be back
+46,4,14,-,can the low voltage be managed for now?
+47,0,0,still need to be kept busy?,do something else asides the task.

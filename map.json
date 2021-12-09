@@ -1,0 +1,488 @@
+[
+  {
+    "Id": 1,
+    "Yes": 7,
+    "No": 2,
+    "Description": "Is the current location safe and away from any other danger. eg fire?"
+  },
+  {
+    "Id": 2,
+    "Yes": 6,
+    "No": 3,
+    "Description": "Are you able to move the person to a safer location?"
+  },
+  {
+    "Id": 3,
+    "Yes": 4,
+    "No": 4,
+    "Description": "Call 999"
+  },
+  {
+    "Id": 4,
+    "Yes": 5,
+    "No": 5,
+    "Description": "Await for 999 to arrive"
+  },
+  {
+    "Id": 5,
+    "Yes": -1,
+    "No": -1,
+    "Description": "End"
+  },
+  {
+    "Id": 6,
+    "Yes": 7,
+    "No": 7,
+    "Description": "Attempt to safely move the person to another location."
+  },
+  {
+    "Id": 7,
+    "Yes": 8,
+    "No": 16,
+    "Description": "Does the person appear unresponsive?"
+  },
+  {
+    "Id": 8,
+    "Yes": 9,
+    "No": 9,
+    "Description": "Check to see if the airway is clear"
+  },
+  {
+    "Id": 9,
+    "Yes": 12,
+    "No": 10,
+    "Description": "Is the airway clear?"
+  },
+  {
+    "Id": 10,
+    "Yes": 11,
+    "No": 11,
+    "Description": "Clear the airway. *Provide info*"
+  },
+  {
+    "Id": 11,
+    "Yes": 12,
+    "No": 13,
+    "Description": "Is the person breathing by themselves?"
+  },
+  {
+    "Id": 12,
+    "Yes": 14,
+    "No": 14,
+    "Description": "You have successfully cleared / checked the airway"
+  },
+  {
+    "Id": 13,
+    "Yes": 16,
+    "No": 16,
+    "Description": "Provide rescue breathing. *Provide info*"
+  },
+  {
+    "Id": 14,
+    "Yes": 16,
+    "No": 15,
+    "Description": "Does the person suffer from any other issues? *List problems*"
+  },
+  {
+    "Id": 15,
+    "Yes": -1,
+    "No": -1,
+    "Description": "End"
+  },
+  {
+    "Id": 16,
+    "Yes": 17,
+    "No": 25,
+    "Description": "Does the person have a weak pulse or no pluse?"
+  },
+  {
+    "Id": 17,
+    "Yes": 18,
+    "No": 18,
+    "Description": "Call 999 immediately"
+  },
+  {
+    "Id": 18,
+    "Yes": 19,
+    "No": 19,
+    "Description": "Begin chest compressions until help arrives *Provide images and info*"
+  },
+  {
+    "Id": 19,
+    "Yes": 21,
+    "No": 20,
+    "Description": "Is an AED (Defibrillator) availiable or nearby?"
+  },
+  {
+    "Id": 20,
+    "Yes": 21,
+    "No": 21,
+    "Description": "Ask a passerby or nearby person to find one while continuing chest compressions"
+  },
+  {
+    "Id": 21,
+    "Yes": 22,
+    "No": 22,
+    "Description": "Use the AED"
+  },
+  {
+    "Id": 22,
+    "Yes": 23,
+    "No": 18,
+    "Description": "Has the heart restarted?"
+  },
+  {
+    "Id": 23,
+    "Yes": 25,
+    "No": 24,
+    "Description": "Does the person suffer from any other issues? *List problems*"
+  },
+  {
+    "Id": 24,
+    "Yes": -1,
+    "No": -1,
+    "Description": "End"
+  },
+  {
+    "Id": 25,
+    "Yes": 26,
+    "No": 40,
+    "Description": "Is the person heavily bleeding?"
+  },
+  {
+    "Id": 26,
+    "Yes": 27,
+    "No": 27,
+    "Description": "If possible wear gloves"
+  },
+  {
+    "Id": 27,
+    "Yes": 31,
+    "No": 28,
+    "Description": "Does the blood have a dark red or bright red colour in appearance and quickly bleeding? NOT trickling"
+  },
+  {
+    "Id": 28,
+    "Yes": 29,
+    "No": 29,
+    "Description": "If not, the bleeding is most likelycoming from a capillary which will ususally stop on its own."
+  },
+  {
+    "Id": 29,
+    "Yes": 30,
+    "No": 30,
+    "Description": "Rinse the cut if there is blood around the area."
+  },
+  {
+    "Id": 30,
+    "Yes": 34,
+    "No": 34,
+    "Description": "Apply a plaster or other covering to avoid anything going into the cut."
+  },
+  {
+    "Id": 31,
+    "Yes": 32,
+    "No": 32,
+    "Description": "Call 999"
+  },
+  {
+    "Id": 32,
+    "Yes": 33,
+    "No": 33,
+    "Description": "Rise the cut if possible and safe to do so"
+  },
+  {
+    "Id": 33,
+    "Yes": 34,
+    "No": 34,
+    "Description": "Cover the would with a gauze or cloth and wrap if possible"
+  },
+  {
+    "Id": 34,
+    "Yes": 35,
+    "No": 35,
+    "Description": "If possible elevate the bleeding part above heart level"
+  },
+  {
+    "Id": 35,
+    "Yes": 38,
+    "No": 36,
+    "Description": "Has the bleeding stopped?"
+  },
+  {
+    "Id": 36,
+    "Yes": 37,
+    "No": 38,
+    "Description": "Has the cloth become soaked through?"
+  },
+  {
+    "Id": 37,
+    "Yes": 38,
+    "No": 38,
+    "Description": "Do not remove the cloth and instead add more layers with continued pressure."
+  },
+  {
+    "Id": 38,
+    "Yes": 40,
+    "No": 39,
+    "Description": "Does the person suffer from any other issues? *List problems*"
+  },
+  {
+    "Id": 39,
+    "Yes": -1,
+    "No": -1,
+    "Description": "End"
+  },
+  {
+    "Id": 40,
+    "Yes": 41,
+    "No": 48,
+    "Description": "Is the person breathing improperly and or choking?"
+  },
+  {
+    "Id": 41,
+    "Yes": 43,
+    "No": 42,
+    "Description": "Is the person unable to talk or cough?"
+  },
+  {
+    "Id": 42,
+    "Yes": 46,
+    "No": 46,
+    "Description": "Do not perform the Heimlich maneuver"
+  },
+  {
+    "Id": 43,
+    "Yes": 42,
+    "No": 44,
+    "Description": "Is the person an infant?"
+  },
+  {
+    "Id": 44,
+    "Yes": 45,
+    "No": 45,
+    "Description": "Ask the person if they are choking"
+  },
+  {
+    "Id": 45,
+    "Yes": 46,
+    "No": 46,
+    "Description": "Perform the Heimlich manuver"
+  },
+  {
+    "Id": 46,
+    "Yes": 48,
+    "No": 47,
+    "Description": "Does the person suffer from any other issues? *List problems*"
+  },
+  {
+    "Id": 47,
+    "Yes": -1,
+    "No": -1,
+    "Description": "End"
+  },
+  {
+    "Id": 48,
+    "Yes": 49,
+    "No": 66,
+    "Description": "Does the person have any burns?"
+  },
+  {
+    "Id": 49,
+    "Yes": 50,
+    "No": 59,
+    "Description": "Has the burn been caused by chemicals, electricity, heat or sunburn?"
+  },
+  {
+    "Id": 50,
+    "Yes": 54,
+    "No": 51,
+    "Description": "Chemicals?"
+  },
+  {
+    "Id": 51,
+    "Yes": 55,
+    "No": 52,
+    "Description": "Electricity?"
+  },
+  {
+    "Id": 52,
+    "Yes": 56,
+    "No": 53,
+    "Description": "Heat?"
+  },
+  {
+    "Id": 53,
+    "Yes": 57,
+    "No": 58,
+    "Description": "Sunburn?"
+  },
+  {
+    "Id": 54,
+    "Yes": 59,
+    "No": 59,
+    "Description": "Wash off all chemicals before treatment follow the chemicals instructions for burns. This can usually be found on the bottle"
+  },
+  {
+    "Id": 55,
+    "Yes": 59,
+    "No": 59,
+    "Description": "Make sure the power is off or that the person is no longer live beofre approching them"
+  },
+  {
+    "Id": 56,
+    "Yes": 59,
+    "No": 59,
+    "Description": "Make sure that the heat source eg stove is no longer causing more damage before treating"
+  },
+  {
+    "Id": 57,
+    "Yes": 59,
+    "No": 59,
+    "Description": "Make sure the person is no longer exposed to the sun beforre treating"
+  },
+  {
+    "Id": 58,
+    "Yes": 59,
+    "No": 59,
+    "Description": "Make sure to follow the proper procedures for removal of what caused the burn."
+  },
+  {
+    "Id": 59,
+    "Yes": 61,
+    "No": 60,
+    "Description": "Along side the redness adn swelling is the burn larger than 3 inches wide or on the face hands or feet? Or is the burn become blackened and numb?"
+  },
+  {
+    "Id": 60,
+    "Yes": 64,
+    "No": 64,
+    "Description": "The burn should heal over time on its own"
+  },
+  {
+    "Id": 61,
+    "Yes": 62,
+    "No": 62,
+    "Description": "Call 999"
+  },
+  {
+    "Id": 62,
+    "Yes": 63,
+    "No": 63,
+    "Description": "Flush the area with cool running water for several minutes"
+  },
+  {
+    "Id": 63,
+    "Yes": 64,
+    "No": 64,
+    "Description": "Apply a gauze bandge and avoid damaging the skin"
+  },
+  {
+    "Id": 64,
+    "Yes": 66,
+    "No": 65,
+    "Description": "Does the person suffer from any other issues? *List problems*"
+  },
+  {
+    "Id": 65,
+    "Yes": -1,
+    "No": -1,
+    "Description": "End"
+  },
+  {
+    "Id": 66,
+    "Yes": 67,
+    "No": -1,
+    "Description": "Does the person have any fractures?"
+  },
+  {
+    "Id": 67,
+    "Yes": 68,
+    "No": 68,
+    "Description": "If possible wear gloves"
+  },
+  {
+    "Id": 68,
+    "Yes": 72,
+    "No": 69,
+    "Description": "Does the blood have a dark red or bright red colour in appearance and quickly bleeding? NOT trickling"
+  },
+  {
+    "Id": 69,
+    "Yes": 70,
+    "No": 70,
+    "Description": "If not, the bleeding is most likelycoming from a capillary which will ususally stop on its own."
+  },
+  {
+    "Id": 70,
+    "Yes": 71,
+    "No": 71,
+    "Description": "Rinse the cut if there is blood around the area."
+  },
+  {
+    "Id": 71,
+    "Yes": 75,
+    "No": 75,
+    "Description": "Apply a plaster or other covering to avoid anything going into the cut."
+  },
+  {
+    "Id": 72,
+    "Yes": 73,
+    "No": 73,
+    "Description": "Call 999"
+  },
+  {
+    "Id": 73,
+    "Yes": 74,
+    "No": 74,
+    "Description": "Rise the cut if possible and safe to do so"
+  },
+  {
+    "Id": 74,
+    "Yes": 75,
+    "No": 75,
+    "Description": "Cover the would with a gauze or cloth and wrap if possible"
+  },
+  {
+    "Id": 75,
+    "Yes": 76,
+    "No": 76,
+    "Description": "If possible elevate the bleeding part above heart level"
+  },
+  {
+    "Id": 76,
+    "Yes": 77,
+    "No": 79,
+    "Description": "Has the person injuried their spine, head hip or pelvis?"
+  },
+  {
+    "Id": 77,
+    "Yes": 78,
+    "No": 78,
+    "Description": "Call 999"
+  },
+  {
+    "Id": 78,
+    "Yes": 79,
+    "No": 79,
+    "Description": "Do not move the person unless you are medically trained to do so."
+  },
+  {
+    "Id": 79,
+    "Yes": 80,
+    "No": 80,
+    "Description": "If possible place a cold pack on the injury and elevate if possible"
+  },
+  {
+    "Id": 80,
+    "Yes": 7,
+    "No": 81,
+    "Description": "Does the person suffer from any other issues? *List problems*"
+  },
+  {
+    "Id": 81,
+    "Yes": -1,
+    "No": -1,
+    "Description": "End"
+  }
+]
