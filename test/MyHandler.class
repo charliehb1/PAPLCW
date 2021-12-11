@@ -1,0 +1,8 @@
+public class MyHandler() implements HttpHandler {
+    public void handle(HttpExchange t) throws IOException {
+        String response = "Hello World!";
+        t.sendResponseHeaders(200, response.length());
+        t.getResponseBody().write(response.getBytes());
+        t.close();
+    }
+}
