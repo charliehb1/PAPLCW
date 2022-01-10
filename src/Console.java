@@ -10,13 +10,16 @@ public class Console {
             map.decision(fromConsoleGetInt("Yes or No? (press 1 for Yes or 2 No)"));
         }
     }
-    public  void print(String  info){System.out.println(info);}
-    public  void lineBreak(){
-        System.out.println("\n---------------");
-    }
+
     public  int fromConsoleGetInt(String prompt){
         print(prompt);
         int retVal = io.nextInt();
         return retVal;
     }
+
+    public  void print(String  info){System.out.println(info);}
+    public  void lineBreak(){
+        System.out.println("\n---------------");
+    }
+
 }
