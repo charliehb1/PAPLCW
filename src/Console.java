@@ -1,5 +1,7 @@
 import java.util.Scanner;
 
+import node.NodeMap;
+
 @SuppressWarnings("ALL")
 public class Console {
     Scanner io;

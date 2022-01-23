@@ -21,10 +21,10 @@ function App() {
 function sendResponse(choice) {
   console.log("User chose " + choice);
   if(choice == "Yes") {
-    var address = "http://192.168.1.75:8000/nextNode?choice=Yes";
+    var address = "http://localhost:8000/nextNode?choice=Yes";
   }
   if(choice == "No") {
-    var address = "http://192.168.1.75:8000/nextNode?choice=No";
+    var address = "http://localhost:8000/nextNode?choice=No";
   }
   var temp = fetch(address).then(response => response.json()).then(response => {
     document.getElementById("questionPlaceHolder").innerHTML = response.question;
@@ -32,7 +32,7 @@ function sendResponse(choice) {
 
 }
 async function getQuestion() {
-  var temp = await fetch("http://192.168.1.75:8000").then(response => response.json());
+  var temp = await fetch("http://localhost:8000").then(response => response.json());
   return temp;
 }
 

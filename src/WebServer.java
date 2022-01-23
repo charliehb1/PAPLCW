@@ -4,6 +4,8 @@ import java.net.InetSocketAddress;
 import com.google.gson.JsonObject;
 import com.sun.net.httpserver.*;
 
+import web.userSession;
+
 public class WebServer {
   public static userSession[] sessions;
   public static userSession[] getSessions() {
