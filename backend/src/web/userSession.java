@@ -1,4 +1,7 @@
+package web;
 import com.google.gson.JsonObject;
+
+import node.NodeMap;
 
 public class userSession {
 
@@ -9,10 +12,8 @@ public class userSession {
         map = new NodeMap();
     }
 
-    public JsonObject sendReply(String reply) {
+    public JsonObject updateNode(String reply) {
         int dec = 0;
-        System.out.println("reply: "+reply);
-
         if(reply.equals("Yes")) {
             dec = 1;
         }
@@ -20,7 +21,6 @@ public class userSession {
             dec = 2;
         }
         map.decision(dec);
-        System.out.println("Decision: "+map.currentNode().getDescription());
         JsonObject jsonReply = new JsonObject();
         jsonReply.addProperty("question", map.currentNode().getDescription());
         return jsonReply;

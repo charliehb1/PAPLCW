@@ -1,4 +1,4 @@
-import java.io.FileNotFoundException;
+import node.NodeCollection;
 public class FlatFileDBTest {
     static NodeCollection nodeCollection;
     public static void main(String[] args) {
