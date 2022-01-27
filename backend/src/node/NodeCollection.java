@@ -22,7 +22,8 @@ public class NodeCollection {
     public Node get(int index){ return nodes[index]; }
 
     public NodeCollection() {
-        String path = "C:/Users/charl/Desktop/PAPL/map.json";
+        String path = "../backend/map.json";
+        System.out.println("Working Directory = " + System.getProperty("user.dir"));
         BufferedReader bufferedReader;
         try {
             bufferedReader = new BufferedReader(new FileReader(path));
@@ -30,6 +31,7 @@ public class NodeCollection {
             Node[] tempNodes = gson.fromJson(bufferedReader, Node[].class);
             nodes = tempNodes;
         } catch (FileNotFoundException e) {
+            System.out.println(path);
             e.printStackTrace();
         }
     }

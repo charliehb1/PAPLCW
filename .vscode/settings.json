@@ -2,14 +2,16 @@
     "java.project.referencedLibraries": {
         "include": [
             "lib/**/*.jar",
-            "libs/gson-2.8.9.jar"
+            "libs/gson-2.8.9.jar",
+            "backend/libs/gson-2.8.9.jar"
         ],
         "exclude": [
             "libs/json-simple.jar"
         ]
     },
     "java.project.sourcePaths": [
+        "test",
         "src",
-        "test"
+        "backend/src"
     ]
 }
