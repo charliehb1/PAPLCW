@@ -8,12 +8,12 @@ import com.sun.net.httpserver.HttpHandler;
 
 public class newUser implements HttpHandler {
     public void handle(HttpExchange exchange) throws IOException {
-        String userIp = exchange.getRemoteAddress().getAddress().getHostAddress();
-        String sessionId = "USER"+userIp;
-        web.webServerMgr.createUserSession(sessionId);
-        JsonObject reply = web.webServerMgr.getNodeDesc(sessionId);
+        String userIp = exchange.getRemoteAddress().getAddress().getHostAddress(); // get the user's IP address
+        String sessionId = "USER"+userIp; // create a session id based on "USER" +  the user's IP address
+        web.webServerMgr.createUserSession(sessionId); // create a new user session
+        JsonObject reply = web.webServerMgr.getNodeDesc(sessionId); 
         exchange = setCORS(exchange);
-        exchange.sendResponseHeaders(200, reply.toString().length());
+        exchange.sendResponseHeaders(200, reply.toString().length());  
         exchange.getResponseBody().write(reply.toString().getBytes());
         exchange.close();
     }

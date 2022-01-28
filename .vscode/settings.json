@@ -10,8 +10,7 @@
         ]
     },
     "java.project.sourcePaths": [
-        "test",
-        "src",
-        "backend/src"
+        "backend/src",
+        "backend/test"
     ]
 }

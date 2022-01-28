@@ -37,7 +37,7 @@ public class Node {
     public void setYesNode(Node yes) {this.yesNode = yes;}
     public Node getNoNode() {return noNode;}
     public void setNoNode(Node no) {this.noNode = no;}
-    public String getQuestion() {return this.isQuestion;}
+    public String isQuestion() {return this.isQuestion;}
     public void setIsQuestion(String isQuestion) {this.isQuestion = isQuestion;}
 
     @Override

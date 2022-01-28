@@ -184,7 +184,7 @@ function sendResponse(choice) {
       document.getElementById("nButton").style.display = "inline-block";
       document.getElementById("cButton").style.display = "none";
     }
-    if(response.question == "End") {
+    if(response.question == "You have reached the end of the decision map.") {
       document.getElementById("yButton").style.display = "none";
       document.getElementById("nButton").style.display = "none";
       document.getElementById("cButton").style.display = "none";
@@ -201,6 +201,6 @@ function openMenu(name) {
 }
 // Gets the inital setup from the Java backend creating the user session and returns the response (First question)
 async function getNodes() {
-  return await fetch("http://localhost:8000").then(response => response.json());
+  return await fetch("http://localhost:8000", { method: "GET" }).then(response => response.json());
 }
 export default App;

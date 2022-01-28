@@ -11,7 +11,7 @@ public class userSession {
         id = userId;
         map = new NodeMap();
     }
-
+    // Take user input and update the nodemap with the decision return the updated nodemap node
     public JsonObject updateNode(String reply) {
         int dec = 0;
         if(reply.equals("Yes")) {
@@ -26,11 +26,10 @@ public class userSession {
         return jsonReply;
     }
 
-    public JsonObject getCurrentDescription() {
+    public JsonObject getReplyToSend() { // generates the response to the front end
         JsonObject jsonReply = new JsonObject();
         jsonReply.addProperty("question", map.currentNode().getDescription());
-        System.out.println(map.currentNode().getQuestion());
-        jsonReply.addProperty("isQuestion", map.currentNode().getQuestion());
+        jsonReply.addProperty("isQuestion", map.currentNode().isQuestion());
         return jsonReply;
     }
 
@@ -40,5 +39,4 @@ public class userSession {
     public void getSessionId(String id) {
         this.id = id;
     }
-
 }

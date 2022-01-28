@@ -31,7 +31,7 @@
     "Id": 5,
     "Yes": -1,
     "No": -1,
-    "Description": "End",
+    "Description": "You have reached the end of the decision map.",
     "isQuestion": "false"
   },
   {
@@ -101,7 +101,7 @@
     "Id": 15,
     "Yes": 15,
     "No": 15,
-    "Description": "End",
+    "Description": "You have reached the end of the decision map.",
     "isQuestion": "false"
   },
   {
@@ -134,8 +134,8 @@
   },
   {
     "Id": 20,
-    "Yes": 21,
-    "No": 21,
+    "Yes": 22,
+    "No": 22,
     "Description": "Ask a passerby or nearby person to find one while continuing chest compressions",
     "isQuestion": "false"
   },
@@ -164,7 +164,7 @@
     "Id": 24,
     "Yes": 24,
     "No": 24,
-    "Description": "End",
+    "Description": "You have reached the end of the decision map.",
     "isQuestion": "false"
   },
   {
@@ -269,7 +269,7 @@
     "Id": 39,
     "Yes": 39,
     "No": 39,
-    "Description": "End",
+    "Description": "You have reached the end of the decision map.",
     "isQuestion": "false"
   },
   {
@@ -301,6 +301,13 @@
     "isQuestion": "true"
   },
   {
+    "Id": 82,
+    "Yes": 46,
+    "No": 46,
+    "Description": "Perform back blows gently",
+    "isQuestion": "false"
+  },
+  {
     "Id": 44,
     "Yes": 45,
     "No": 45,
@@ -325,7 +332,7 @@
     "Id": 47,
     "Yes": 47,
     "No": 47,
-    "Description": "End",
+    "Description": "You have reached the end of the decision map.",
     "isQuestion": "false"
   },
   {
@@ -451,7 +458,7 @@
     "Id": 65,
     "Yes": 65,
     "No": 65,
-    "Description": "End",
+    "Description": "You have reached the end of the decision map.",
     "isQuestion": "false"
   },
   {
@@ -479,7 +486,7 @@
     "Id": 69,
     "Yes": 70,
     "No": 70,
-    "Description": "If not, the bleeding is most likelycoming from a capillary which will ususally stop on its own.",
+    "Description": "If not, the bleeding is most likely coming from a capillary which will usually stop on its own.",
     "isQuestion": "false"
   },
   {
@@ -563,7 +570,7 @@
     "Id": 81,
     "Yes": 81,
     "No": 81,
-    "Description": "End",
+    "Description": "You have reached the end of the decision map.",
     "isQuestion": "false"
   }
 ]
