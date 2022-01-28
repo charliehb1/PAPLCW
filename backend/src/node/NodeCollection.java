@@ -43,6 +43,7 @@ public class NodeCollection {
         n.setYesID(valueOf(stringArray[1]));
         n.setNoID(valueOf(stringArray[2]));
         n.setDescription(stringArray[4]);
+        n.setIsQuestion(stringArray[5]);
         return n;
     }
 

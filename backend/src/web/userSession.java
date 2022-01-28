@@ -29,6 +29,8 @@ public class userSession {
     public JsonObject getCurrentDescription() {
         JsonObject jsonReply = new JsonObject();
         jsonReply.addProperty("question", map.currentNode().getDescription());
+        System.out.println(map.currentNode().getQuestion());
+        jsonReply.addProperty("isQuestion", map.currentNode().getQuestion());
         return jsonReply;
     }
 

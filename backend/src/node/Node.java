@@ -10,14 +10,17 @@ public class Node {
     private int noID;
     @SerializedName("Description")
     private String description;
+    @SerializedName("isQuestion")
+    private String isQuestion;
     private Node yesNode;
     private Node noNode;
 
-    public Node(int ID, int yesID, int noID, String description) {
+    public Node(int ID, int yesID, int noID, String description, String isQuestion) {
         this.ID = ID;
         this.yesID = yesID;
         this.noID = noID;
         this.description = description;
+        this.isQuestion = isQuestion;
     }
 
     public Node() {}
@@ -34,12 +37,15 @@ public class Node {
     public void setYesNode(Node yes) {this.yesNode = yes;}
     public Node getNoNode() {return noNode;}
     public void setNoNode(Node no) {this.noNode = no;}
+    public String getQuestion() {return this.isQuestion;}
+    public void setIsQuestion(String isQuestion) {this.isQuestion = isQuestion;}
 
     @Override
     public String toString() {
         return "nodeID:" + ID +
                 ", yesID:" + yesID +
                 ", noID:" + noID +
-                ", description:'" + description;
+                ", description:'" + description +
+                ", isQuestion:'" + isQuestion;
     }
 }
